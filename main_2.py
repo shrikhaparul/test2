@@ -51,7 +51,7 @@ else:
 
 def csv_ingestion(job_id):
     try:
-        with open(r"C:\\Users\\ParulShrikhande\\Desktop\\ingestion_file\\shilpi\\config2.json","r", encoding='utf-8') as jsonfile:
+        with open(r"C:\\Users\\ParulShrikhande\\Desktop\\ingestion_file\\shilpi\\config.json","r", encoding='utf-8') as jsonfile:
             definitions_2.logging.info("reading json data")
             json_data = json.load(jsonfile)
             definitions_2.logging.info("reading json data completed")
