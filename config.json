@@ -1,0 +1,15 @@
+{
+
+        "type": "ingestion",        
+        "source": "file",    
+        "csv_loc":"C:\\Users\\ParulShrikhande\\Downloads\\sales_data_sample_new.csv",        
+        "target": "postgres", 
+        "if_exists":"replace",
+        "delimiter" : "," ,
+        "table": "new", 
+        "schema": "public",     
+        "config_path": "C:\\Users\\ParulShrikhande\\Desktop\\ingestion_file\\shilpi\\config.ini",
+        "conn_nm" : "postgresql_1"
+    
+      }
+
