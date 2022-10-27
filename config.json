@@ -8,7 +8,7 @@
         "delimiter" : "," ,
         "table": "new", 
         "schema": "public",     
-        "config_path": "C:\\Users\\ParulShrikhande\\Desktop\\ingestion_file\\shilpi\\config.ini",
+        "config_path": "C:\\Users\\ParulShrikhande\\Desktop\\dq_checks_file\\config.ini",
         "conn_nm" : "postgresql_1"
     
       }
