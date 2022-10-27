@@ -1,0 +1,12 @@
+{
+    "type": "Ingestion",
+    "source": "csv",
+    "src_loc": "C:\\Users\\ParulShrikhande\\Downloads\\sales_new.csv",
+    "src_section_nm": "",
+    "target": "postgres",
+    "tgt_loc": "public.bz21",
+    "tgt_section_nm": "source_postgresql",  
+    "config_path": "C:\\Users\\ParulShrikhande\\Desktop\\dq_checks_file\\config.ini",
+    "control_table": "C:\\Users\\ParulShrikhande\\Desktop\\dq_checks_file\\control_table.json",
+    "config_section_nm": "source_postgresql"
+}
