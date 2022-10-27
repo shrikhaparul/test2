@@ -2,7 +2,7 @@
 
         "type": "ingestion",        
         "source": "file",    
-        "csv_loc":"C:\\Users\\ParulShrikhande\\Downloads\\sales_new.csv",        
+        "csv_loc":"C:\\Users\\ParulShrikhande\\Desktop\\dq_checks_file",        
         "target": "postgres", 
         "if_exists":"replace",
         "delimiter" : "," ,
